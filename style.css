@@ -5,3 +5,6 @@
 .projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
 .project-item { border: 1px solid #555; padding: 2rem; border-radius: 8px; }
 .project-item:hover { border-color: #00d4ff; background-color: rgba(0, 212, 255, 0.05); transition: all 0.3s ease; }
+.education-item { border: 1px solid #555; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
+.education-item:first-child { grid-column: 1 / -1; }
+.education-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
