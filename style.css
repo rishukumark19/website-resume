@@ -8,3 +8,4 @@
 .education-item { border: 1px solid #555; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
 .education-item:first-child { grid-column: 1 / -1; }
 .education-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+html.light-mode { --bg: #ffffff; --bg-darker: #f5f5f5; --text: #000000; --text-muted: #666666; --border: #e0e0e0; }
